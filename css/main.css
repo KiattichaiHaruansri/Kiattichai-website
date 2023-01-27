@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background: black;
+    background: #54B435;
     height: 80px;
     width: 100%;
 }
@@ -40,7 +40,8 @@ nav ul li a {
     font-size: 25px;
 }
 
-a.active,a:hover {
-    background: blue;
+a:active,a:hover {
+    color: #F0FF42;
+    font-weight: bold;
     transition: .5s;
 }
