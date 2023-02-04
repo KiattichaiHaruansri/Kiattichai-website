@@ -11,6 +11,10 @@
     background-color: black;
 }
 
+.w1 {
+    background: linear-gradient(#696969,black);
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -22,8 +26,8 @@ nav {
 
 .Logo {
     color: white;
-    font-size: 70px;
-    letter-spacing: 1px;
+    font-size: 59px;
+    letter-spacing: 5px;
     cursor: pointer;
 }
 
@@ -47,4 +51,49 @@ nav ul li a {
 
 nav ul li a:hover {
     color: red;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.Profile {
+    border-radius: 50%;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    border-style: groove;
+    border-color: red;
+    left: 150%;
+    top: -70%;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background: #696969;
+}
+
+h3 {
+    color: white;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
 }
